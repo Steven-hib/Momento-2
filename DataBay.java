@@ -83,13 +83,13 @@ public class DataBay {
         }
 
         // INSPECCIÓN
-        System.out.println("\nINSPECCIÓN:");
+        System.out.println("INSPECCIÓN:");
         while (!cola.isEmpty()) {
             System.out.println(cola.poll());
         }
 
         // BUQUE
-        System.out.println("\nBUQUE (de arriba hacia abajo):");
+        System.out.println(nBUQUE (de arriba hacia abajo):");
         Stack<Contenedor> aux = new Stack<>();
 
         while (!pila.isEmpty()) {
